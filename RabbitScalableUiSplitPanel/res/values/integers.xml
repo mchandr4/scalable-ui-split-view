@@ -1,0 +1,5 @@
+<resources>
+    <!-- Layer ordering for panels; keep map behind decor by default -->
+    <integer name="app_panel_layer">10</integer>
+    <integer name="map_panel_layer">5</integer>
+</resources>

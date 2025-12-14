@@ -1,0 +1,17 @@
+<Panel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="map_panel"
+    defaultVariant="@id/opened"
+    role="@array/map_components">   <!-- IMPORTANT -->
+
+    <Variant id="@+id/base">
+        <Corner radius="@dimen/corner_radius"/>
+        <Layer layer="@integer/map_panel_layer"/>
+    </Variant>
+
+    <Variant id="@+id/opened" parent="@id/base">
+        <Visibility isVisible="true"/>
+        <Bounds left="@dimen/map_left" top="@dimen/map_top"
+            right="@dimen/map_right" bottom="@dimen/map_bottom"/>
+    </Variant>
+</Panel>

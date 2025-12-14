@@ -1,0 +1,29 @@
+<resources>
+    <bool name="config_enableScalableUI">true</bool>
+    <bool name="config_enableClearBackStack">false</bool>
+
+    <!-- Panels/decor to load -->
+    <array name="window_states">
+        <item>@xml/app_panel</item>
+        <item>@xml/map_panel</item>
+        <!-- optional decor if you have them:
+        <item>@xml/decor_grip_bar_split_task</item>
+        <item>@xml/decor_split_nav_overlay</item>
+        <item>@xml/decor_split_app_overlay</item>
+        -->
+    </array>
+
+    <!-- Map panel IDs to concrete activities (panelId;package/.Activity) -->
+    <string-array name="config_default_activities">
+        <!-- Use Settings as a guaranteed app while testing -->
+        <item>app_panel;com.android.car.mapsplaceholder/.MapsPlaceholderActivity</item>
+        <item>map_panel;com.android.car.mapsplaceholder/.MapsPlaceholderActivity</item>
+        <!-- Later: switch to PaintBooth + your Map app -->
+        <!-- <item>app_panel;com.android.car.ui.paintbooth/.MainActivity</item> -->
+        <!-- <item>map_panel;com.google.android.apps.maps/.MapsActivity</item> -->
+    </string-array>
+
+    <!-- (Optional) if your branch uses this in the status bar app drawer -->
+    <string name="system_bar_app_drawer_intent"
+        translatable="false">intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;end</string>
+</resources>
