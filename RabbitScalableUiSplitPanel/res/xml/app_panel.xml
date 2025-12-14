@@ -1,0 +1,19 @@
+<Panel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="app_panel"
+    defaultVariant="@id/opened"
+    role="@array/nav_components">   <!-- IMPORTANT: array, not string -->
+
+    <Variant id="@+id/base">
+        <Corner radius="@dimen/corner_radius"/>
+        <Layer layer="@integer/app_panel_layer"/>
+    </Variant>
+
+    <Variant id="@+id/opened" parent="@id/base">
+        <Visibility isVisible="true"/>
+        <Bounds left="@dimen/app_left" top="@dimen/top_bar_bottom"
+            right="@dimen/app_right" bottom="@dimen/bottom_bar_top"/>
+        <SafeBounds left="@dimen/caption_bar_left" top="@dimen/top_bar_bottom"
+            right="@dimen/app_right" bottom="@dimen/bottom_bar_top"/>
+    </Variant>
+</Panel>

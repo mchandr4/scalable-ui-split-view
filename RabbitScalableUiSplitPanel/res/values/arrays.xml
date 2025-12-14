@@ -1,0 +1,12 @@
+<!-- res/values/arrays.xml -->
+<resources>
+    <!-- Role for the app pane -->
+    <string-array name="nav_components">
+        <item>app_panel</item>
+    </string-array>
+
+    <!-- Role for the map pane (what the framework watches for APP_MAPS) -->
+    <string-array name="map_components">
+        <item>map_panel</item>
+    </string-array>
+</resources>

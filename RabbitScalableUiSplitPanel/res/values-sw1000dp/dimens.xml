@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="corner_radius">28dp</dimen>
+    <dimen name="top_bar_bottom">120dp</dimen>
+    <dimen name="bottom_bar_top">1400dp</dimen>
+    <dimen name="app_left">56dp</dimen>
+    <dimen name="app_right">1536dp</dimen>
+    <dimen name="map_left">1536dp</dimen>
+    <dimen name="map_right">2520dp</dimen>
+    <dimen name="map_top">144dp</dimen>
+    <dimen name="map_bottom">1400dp</dimen>
+    <dimen name="caption_bar_left">56dp</dimen>
+</resources>

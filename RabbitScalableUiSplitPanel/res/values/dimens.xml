@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="corner_radius">24dp</dimen>
+
+    <!-- Example 60/40 split for 1920x1080; adjust with sw buckets for real devices -->
+    <dimen name="top_bar_bottom">96dp</dimen>
+    <dimen name="bottom_bar_top">984dp</dimen>
+
+    <!-- Left/right bounds (will be interpreted by your panel XML) -->
+    <dimen name="app_left">40dp</dimen>
+    <dimen name="app_right">1152dp</dimen> <!-- ~60% of 1920 -->
+    <dimen name="map_left">1152dp</dimen>  <!-- starts where app ends -->
+    <dimen name="map_right">1880dp</dimen>
+    <dimen name="map_top">120dp</dimen>
+    <dimen name="map_bottom">984dp</dimen>
+
+    <dimen name="caption_bar_left">40dp</dimen>
+</resources>
