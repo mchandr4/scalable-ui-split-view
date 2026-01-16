@@ -2,7 +2,7 @@
     package="vendor.rabbit.systemui.scalableui.splitpanel"
     android:hasCode="false">
     <overlay
-        android:targetPackage="com.android.systemui"
+        android:targetPackage="com.android.car.systemui"
         android:isStatic="true"
         android:priority="1"/>
 </manifest>
